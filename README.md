@@ -1,10 +1,32 @@
-# Hotel Reservation Cancellation Prediction
+# 🏨 Hotel Reservation Cancellation Prediction
 
-Built logistic regression and XGBoost models to predict hotel booking cancellations using customer and reservation data.  
-Achieved 93.7% ROC-AUC with XGBoost after feature engineering and model evaluation.  
-Identified key predictors such as lead time, special requests, and average price per room.  
-Provided actionable business recommendations for optimizing overbooking strategies, improving revenue forecasting, and reducing lost revenue.
+**Goal:** Predict whether a hotel reservation will be canceled using structured customer and reservation data.
 
-**Tools:** Python, pandas, scikit-learn, XGBoost, matplotlib, seaborn, Jupyter Notebook
+---
+
+## 📊 Approach
+- Built logistic regression and XGBoost models.
+- Performed data preprocessing, feature engineering (e.g., total nights), and label encoding.
+- Evaluated models using cross-validation, precision, recall, F1, and ROC-AUC metrics.
+
+---
+
+## 🏆 Results
+- Achieved **93.7% ROC-AUC** with XGBoost.
+- Identified key predictors: lead time, special requests, average price per room.
+- Provided actionable insights for overbooking strategy and revenue management optimization.
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- pandas
+- scikit-learn
+- XGBoost
+- matplotlib
+- seaborn
+- Jupyter Notebook
+
+---
 
 *Note: Full narrative refinement planned for final portfolio polish.*
